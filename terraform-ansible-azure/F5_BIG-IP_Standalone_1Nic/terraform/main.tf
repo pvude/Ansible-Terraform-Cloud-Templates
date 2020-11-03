@@ -28,7 +28,7 @@ module "azure_f5_standalone" {
 }
 
 module "azure_ressourcegroup" {
-  source       = "../../terraform_modules/azure_ressourcegroup"
+  source       = "../../terraform_modules/azure_resourcegroup"
   owner        = "${var.owner}-${var.project_name}"
   azure_region = var.azure_region
 }
