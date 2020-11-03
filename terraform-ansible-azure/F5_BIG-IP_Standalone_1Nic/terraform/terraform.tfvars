@@ -1,5 +1,5 @@
 #Name of the owner of this deployment (no space)
-owner = "pvu"
+owner = "user"
 
 #Name of the project
 project_name = "Example_BIGP_Azure"
@@ -15,7 +15,7 @@ azure_az2 = "2"
 key_path = "~/.ssh/id_rsa.pub"
 
 #Public IPs used to access your instances
-AllowedIPs = ["80.150.117.162/32"]
+AllowedIPs = ["1.1.1.1/32"]
 
 #F5 Image to deploy
 f5_version = "latest"
