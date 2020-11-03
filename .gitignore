@@ -8,3 +8,4 @@ azure_creds.sh
 ansible-test
 ansible.cfg
 tbd.md
+*.tfvars
