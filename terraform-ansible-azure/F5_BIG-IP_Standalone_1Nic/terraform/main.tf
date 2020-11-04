@@ -2,14 +2,14 @@
 ## azurerm provides the information to target a specific subscription/appid/tenantid/... 
 ## fill it if you haven't setup env variables to provide this information
 ##
-##provider "azurerm" {
-##    subscription_id = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-##    client_id       = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-##    client_secret   = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-##    tenant_id       = "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-##}
 provider "azurerm" {
+  subscription_id = var.subscription_id
+  client_id       = var.client_id
+  client_secret   = var.client_secret
+  tenant_id       = var.tenant_id
 }
+##provider "azurerm" {
+##}
 
 module "azure_f5_standalone" {
   source            = "../../terraform_modules/azure_F5_standalone_1nic"

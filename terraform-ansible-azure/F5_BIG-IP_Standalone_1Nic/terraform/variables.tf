@@ -1,3 +1,10 @@
+## Provider
+variable "subscription_id" {}
+variable "client_id" {}
+variable "client_secret" {}
+variable "tenant_id" {}
+
+## Project
 variable "owner" {}
 
 variable "project_name" {}
